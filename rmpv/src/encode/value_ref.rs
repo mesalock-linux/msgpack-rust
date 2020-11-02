@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use std::io::Write;
 
 use rmp::encode::{write_bool, write_nil, write_sint, write_uint, write_f32, write_f64, write_str,

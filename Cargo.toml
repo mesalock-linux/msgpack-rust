@@ -2,6 +2,6 @@
 members = [
     "rmp",
     "rmp-serde",
-    "rmpv",
-    "rmpv-tests"
+    "rmpv"
+    #"rmpv-tests"
 ]

@@ -1,5 +1,6 @@
 //! Serialize a Rust data structure into MessagePack data.
 
+use std::prelude::v1::*;
 use std::error;
 use std::fmt::{self, Display};
 use std::io::Write;

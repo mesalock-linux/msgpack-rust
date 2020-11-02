@@ -1,5 +1,6 @@
 //! Generic MessagePack deserialization.
 
+use std::prelude::v1::*;
 use std::error;
 use std::fmt::{self, Display, Formatter};
 use std::io::{self, Cursor, ErrorKind, Read};

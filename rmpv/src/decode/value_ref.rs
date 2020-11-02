@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 use std;
 use std::io::{self, Cursor, ErrorKind, Read};
 use std::str;
