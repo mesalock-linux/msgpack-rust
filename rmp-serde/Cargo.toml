@@ -15,7 +15,7 @@ edition = "2018"
 byteorder = { git = "https://github.com/mesalock-linux/byteorder-sgx" }
 serde = { git = "https://github.com/mesalock-linux/serde-sgx" }
 rmp = { version = "0.8.8", path = "../rmp" }
-sgx_tstd = { rev = "v1.1.2", git = "https://github.com/apache/teaclave-sgx-sdk", optional = true }
+sgx_tstd = { rev = "v1.1.3", git = "https://github.com/apache/teaclave-sgx-sdk", optional = true }
 
 [features]
 default = ["mesalock_sgx"]
